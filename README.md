@@ -78,3 +78,25 @@ Requirements: Node.js, Yarn
 3. Run `yarn start` to generate the library bundle using [Rollup](https://github.com/rollup/rollup) and see the component in action using [Storybook](https://github.com/storybooks/storybook)
 
 Suggestions and contributions are always welcome! Please first discuss changes via issue before submitting a pull request.
+
+```
+react-magnifier
+├─ .editorconfig
+├─ .storybook
+│  └─ config.js
+├─ LICENSE
+├─ README.md
+├─ package.json
+├─ rollup.config.js
+├─ src
+│  ├─ Magnifier.tsx
+│  └─ style.scss
+├─ stories
+│  ├─ index.stories.jsx
+│  ├─ test-image-base-64.js
+│  ├─ test-image-small.jpg
+│  └─ test-image.jpg
+├─ tsconfig.json
+└─ yarn.lock
+
+```
