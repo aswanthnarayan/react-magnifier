@@ -48,8 +48,9 @@
 		"lodash.throttle": "^4.1.1"
 	},
 	"peerDependencies": {
-		"react": "^16.0.0"
-	},
+  "react": "^16.0.0"
+}
+,
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
 		"@samuelmeuli/eslint-config": "~6.0.0",
