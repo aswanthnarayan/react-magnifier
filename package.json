@@ -1,6 +1,6 @@
 {
 	"name": "react-magnifier",
-	"version": "3.0.4",
+	"version": "3.0.5",
 	"description": "React image zoom component",
 	"keywords": [
 		"react",
@@ -25,6 +25,15 @@
 	"main": "./dist/Magnifier.js",
 	"module": "./dist/Magnifier.es.js",
 	"types": "./dist/Magnifier.d.ts",
+	"exports": {
+  ".": {
+    "import": "./dist/Magnifier.es.js",
+    "require": "./dist/Magnifier.js",
+    "types": "./dist/Magnifier.d.ts"
+  }
+},
+
+	
 	"scripts": {
 		"start": "npm-run-all build:rollup --parallel start:*",
 		"start:rollup": "rollup --config --sourcemap --watch",
